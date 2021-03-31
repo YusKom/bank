@@ -29,10 +29,15 @@ type Card struct {
 	Active     bool
 }
 
+
+type Category string
+
+
 // Payment представляет игформацию о платеже.
 type Payment struct {
 	ID     int
 	Amount Money
+	Category Category
 }
 
 
